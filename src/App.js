@@ -1,5 +1,4 @@
 import React from 'react';
-import './index.css';
 import Nav from "./components/Nav/indexNav"
 import About from './components/About/indexAbout'
 
