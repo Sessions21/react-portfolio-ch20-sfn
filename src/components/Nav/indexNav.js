@@ -1,9 +1,10 @@
 import React, { useState } from "react";
+import Project from "../Projects/indexProject";
 
 function Nav() {
 
   const projectsSelected = () => {
-    console.log ("hello")
+    Project()
   }
   return (
     <header className="flex-row px-1">
@@ -24,7 +25,7 @@ function Nav() {
             <span>Contact</span>
           </li>
           <li>
-            <span onClick={() => projectsSelected()}>Projects</span>
+            <span onClick={() => projectsSelected()}>Portfolio</span>
           </li>
           <li>
             <span>Resume</span>

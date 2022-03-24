@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import photoRing from "../../assets/images_project/ring-builder.png";
 import photoSahp from "../../assets/images_project/sahm-schedular.png";
 import photoRun from "../../assets/images_project/run-buddy.png";
@@ -8,7 +8,7 @@ import photoEcomm from "../../assets/images_project/e-commerce-backend.png";
 
 function Project() {
 
-  const Projects = [
+  const [projects, setProjects] = useState([
     {
       name: "Ring Builder",
       description:"Build customized rings step-by-step, choosing from an assortment of unique stones and band designs.",
@@ -51,23 +51,28 @@ function Project() {
       github: 'https://github.com/Sessions21/e-commerce-backend_Ch13_sfn',
       image: photoEcomm
     }
-  ];
+  ]);
 
   return (
     <section>
-      <h1>{ Projects.name }</h1>
-      <p>{ Projects.description }</p>
-      <a href={ Projects.website }>Visit Site</a>
-      <a href={ Projects.github }>GitHub Repo</a>
+      {projects.map((project) => (
+        <div key={project.name}>
+          <h2>{ project.name }</h2>
+          <p>{ project.description }</p>
+          <a href={ project.website }>Visit Site</a>
+          <a href={ project.github }>GitHub Repo</a>
+          <div className="flex-row">
+            <img
+              src={project.image}
+              alt="project thumbnail"
+              className="img-thumbnail mx-1"
+            />
+          </div>
+        </div>
 
-      <div className="flex-row">
-          <img
-            src={Projects.image}
-            alt="project thumbnail"
-            className="img-thumbnail mx-1"
-          />
-      </div>
+      ))}
     </section>
   );
 }
+
 export default Project;
