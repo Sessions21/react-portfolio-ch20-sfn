@@ -3,25 +3,20 @@ import Project from "../Projects/indexProject";
 
 function Nav() {
 
-  const projectsSelected = () => {
-    Project()
-  }
   return (
     <nav>
       <ul className="flex-row">
         <li className="mx-2">
-          <a href="#about">
-            About me
-          </a>
+          <span>About me</span>
         </li>
-        <li>
-          <span>Contact</span>
+        <li className="mx-2">
+          <span>Portfolio</span>
         </li>
-        <li>
-          <span onClick={() => projectsSelected()}>Portfolio</span>
-        </li>
-        <li>
+        <li className="mx-2">
           <span>Resume</span>
+        </li>
+        <li className="mx-2">
+          <span>Contact</span>
         </li>
       </ul>
     </nav>

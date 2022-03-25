@@ -8,7 +8,7 @@ import photoEcomm from "../../assets/images_project/e-commerce-backend.png";
 
 function Project() {
 
-  const [projects, setProjects] = useState([
+  const [projects] = useState([
     {
       name: "Ring Builder",
       description:"Build customized rings step-by-step, choosing from an assortment of unique stones and band designs.",
