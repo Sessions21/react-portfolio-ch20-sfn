@@ -1,14 +1,12 @@
-import React, { useState } from "react";
-import Nav from "../Nav/indexNav"
+import React from "react";
+import Nav from "./indexNav"
 
 
 function Header() {
   return (
     <header className="flex-row px-1">
       <h2>
-        <a href="/about">
-          Scott F. Nichols
-        </a>
+        Scott F. Nichols
         <span><p>Full Stack Web designer</p></span>
       </h2>
       <Nav />

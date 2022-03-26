@@ -1,14 +1,14 @@
 import React, {useState} from "react";
-import photoRing from "../../assets/images_project/ring-builder.png";
-import photoSahp from "../../assets/images_project/sahm-schedular.png";
-import photoRun from "../../assets/images_project/run-buddy.png";
-import photoRead from "../../assets/images_project/readme.png";
-import photoSocial from "../../assets/images_project/social-network.png";
-import photoEcomm from "../../assets/images_project/e-commerce-backend.png";
+import photoRing from "../../../assets/images_project/ring-builder.png";
+import photoSahp from "../../../assets/images_project/sahm-schedular.png";
+import photoRun from "../../../assets/images_project/run-buddy.png";
+import photoRead from "../../../assets/images_project/readme.png";
+import photoSocial from "../../../assets/images_project/social-network.png";
+import photoEcomm from "../../../assets/images_project/e-commerce-backend.png";
 
 function Project() {
 
-  const [projects] = useState([
+  const [projects, setProjects] = useState([
     {
       name: "Ring Builder",
       description:"Build customized rings step-by-step, choosing from an assortment of unique stones and band designs.",

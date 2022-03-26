@@ -1,31 +1,26 @@
-import React, { useState } from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './Header/indexHead';
-import About from './About/indexAbout';
-import Project from './Projects/indexProject';
-import Resume from './Resume/indexRes';
-import Contact from './Contact/indexContact';
+import About from './Pages/About/indexAbout';
+import Project from './Pages/Projects/indexProject';
+import Resume from './Pages/Resume/indexRes';
+import Contact from './Pages/Contact/indexContact';
 import Footer from './Footer/indexFooter';
 import "./App.css"
 
 function App() {
-
   return (
     <div className='container'>
-      <Router>
+      <BrowserRouter>
         <Header />
-        <Route path="/about" component={About} />
-        <Route path="/portfolio" component={Project} />
-        <Route path="/resume" component={Resume} />
-        <Route path="/contact" component={Contact}/>
-      </Router>
-        <main>
-          <About />
-          <Project />
-          <Resume />
-          <Contact />
-        </main>
-      <Footer />
+        <Routes>
+          <Route path="/" element={ <About /> } />
+          <Route path="/projects" element={ <Project /> } />
+          <Route path="/resume" element={ <Resume /> } />
+          <Route path="/contact" element={ <Contact /> } />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }

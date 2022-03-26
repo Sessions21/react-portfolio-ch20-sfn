@@ -20,6 +20,7 @@ main {
 
 * {
   box-sizing: border-box;
+  font-family:  'Bebas Neue', cursive;
 }
 
 html,
@@ -36,7 +37,7 @@ body {
   letter-spacing: .1em;
   background: var(--dark);
   color:black;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Bebas Neue', cursive;
 
 }
 
@@ -46,7 +47,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Bebas Neue', cursive;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -95,9 +96,6 @@ header {
   background: var(--dark);
 }
 
-header a {
-  color: var(--light);
-}
 
 button {
   font-size: 1rem;
@@ -146,7 +144,7 @@ input:focus {
   box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 
-li {
+nav li {
   list-style: none;
 }
 
@@ -290,6 +288,6 @@ a {
 	
 }
 
-.navActive {
+.navActive a {
   color: var(--secondary);
 }
