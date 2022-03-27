@@ -6,8 +6,8 @@ const Resume = () => {
     <div>
       <a href={ImageRes} download="resume.pdf"> Download Resume Here </a>
       <article>
-        <h2>Resume</h2>
-        <h3>Scott F. Nichols Web Designer</h3>
+        <h1>Resume</h1>
+        <h2>Scott F. Nichols <span><p>Web Designer</p></span></h2>
         <p> With over 12 years of IT experience immersed in all areas of the complex IBM business
             model, along with a mathematics and business education, and a breadth of leadership
             roles, I use my broad knowledgebase to provide innovative ideas and unique solutions.
