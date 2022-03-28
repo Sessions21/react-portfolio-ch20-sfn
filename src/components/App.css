@@ -147,6 +147,7 @@ nav li {
 
 nav a:hover {
   text-decoration: none;
+  color: white
 }
 
 nav  li {
@@ -170,6 +171,7 @@ textarea {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .space-between {
