@@ -39,7 +39,7 @@ This website showcases my webdesign portfolio, along with other pertinant person
 
 ### Landing Page Example:
  
-![website about page](./public/icons/landing-page.png)
-![website projects page](./public/icons/landing-page.png)
-![website resume page](./public/icons/landing-page.png)
-![website contact page](./public/icons/landing-page.png)
+![website about page](./src/assets/images_project/about.png)
+![website projects page](./src/assets/images_project/projects.png)
+![website resume page](./src/assets/images_project/resume.png)
+![website contact page](./src/assets/images_project/contact.png)
