@@ -4,7 +4,6 @@ import ImageRes from '../../../assets/images_resume/resume.pdf';
 const Resume = () => {
   return (
     <div>
-      <a href={ImageRes} download="resume.pdf"> Download Resume Here </a>
       <article>
         <h1>Resume</h1>
         <h2>Scott F. Nichols <span><p>Web Designer</p></span></h2>
@@ -18,20 +17,21 @@ const Resume = () => {
             maximizing the returns of any endeavor.
         </p>
         <br/>
-        <h4>Education:</h4>
+        <h3>Education:</h3>
         <ul>
           <li>Full Stack Web Design Bootcamp - University of utah (A)</li>
           <li>Bachelor of Science in Mathematics - Mars Hill University (Cum Laude)</li>
           <li>Associates in Business and Finance - Salt Lake Community College (Cum Laude)</li>
         </ul>
         <br/>
-        <h4>Skills:</h4>
+        <h3>Skills:</h3>
         <ul>
           <li>Full Stack Web Design - HTML, CSS, JavaScript, JQuery, Node.js, MERN web design</li>
           <li>IBM Certified Systems Engineer - Power Systems, IBM Cloud, IBM Storage, ESS</li>
           <li>Competition Soccer Coach</li>
           <li>Public Speaker/Instructor</li>
         </ul>
+        <a href={ImageRes} className= "button" download="resume.pdf"> Download Resume Here </a>
       </article>
     </div>
   )

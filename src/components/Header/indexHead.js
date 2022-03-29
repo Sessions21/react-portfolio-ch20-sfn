@@ -5,10 +5,10 @@ import Nav from "./indexNav"
 function Header() {
   return (
     <header className="flex-row px-1">
-      <h2>
-        <a href="/">Scott F. Nichols</a>
+      <h1>
+        <a className="name" href="/">Scott F. Nichols</a>
         <span><p>Full Stack Web designer</p></span>
-      </h2>
+      </h1>
       <Nav />
     </header>
   );

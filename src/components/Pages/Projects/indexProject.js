@@ -56,7 +56,7 @@ function Project() {
   return (
     <section>
       {projects.map((project) => (
-        <div key={project.name}>
+        <div className="project" key={project.name}>
           <h2>{ project.name }</h2>
           <p>{ project.description }</p>
           <a href={ project.website }>Visit Site</a>
