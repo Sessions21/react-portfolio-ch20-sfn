@@ -5,10 +5,18 @@ import photoRun from "../../../assets/images_project/run-buddy.png";
 import photoRead from "../../../assets/images_project/readme.png";
 import photoSocial from "../../../assets/images_project/social-network.png";
 import photoEcomm from "../../../assets/images_project/e-commerce-backend.png";
+import photoTshirt from "../../../assets/images_project/home-page.png"
 
 function Project() {
 
   const [projects, setProjects] = useState([
+    {
+      name: "T-Shirt Paradise",
+      description:"A forum for T-Shirt enthusiasts to share, create, comment and peruse user's favorite t-shirts.",
+      website: 'https://t-shirt-paradise.herokuapp.com/',
+      github: 'https://github.com/Sessions21/t-shirt-paradise',
+      image: photoTshirt
+    },
     {
       name: "Ring Builder",
       description:"Build customized rings step-by-step, choosing from an assortment of unique stones and band designs.",
