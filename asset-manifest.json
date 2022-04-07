@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/react-portfolio-ch20-sfn/static/css/main.7db29f0b.css",
-    "main.js": "/react-portfolio-ch20-sfn/static/js/main.f4caefd5.js",
+    "main.js": "/react-portfolio-ch20-sfn/static/js/main.7c03019e.js",
     "static/media/about-cover.png": "/react-portfolio-ch20-sfn/static/media/about-cover.b37824377d2bef5f438c.png",
     "static/media/sahm-schedular.png": "/react-portfolio-ch20-sfn/static/media/sahm-schedular.bb49267c7cade8f213d1.png",
+    "static/media/home-page.png": "/react-portfolio-ch20-sfn/static/media/home-page.7012fd28bf74437b5972.png",
     "static/media/ring-builder.png": "/react-portfolio-ch20-sfn/static/media/ring-builder.3b42fa28e03a6bb5d73c.png",
     "static/media/run-buddy.png": "/react-portfolio-ch20-sfn/static/media/run-buddy.52decab17fef24595bb0.png",
     "static/media/body_cover.JPG": "/react-portfolio-ch20-sfn/static/media/body_cover.ca3a7bf1b0e801c8d51f.JPG",
@@ -13,10 +14,10 @@
     "static/media/e-commerce-backend.png": "/react-portfolio-ch20-sfn/static/media/e-commerce-backend.e4a9bd289337d83d4ef1.png",
     "index.html": "/react-portfolio-ch20-sfn/index.html",
     "main.7db29f0b.css.map": "/react-portfolio-ch20-sfn/static/css/main.7db29f0b.css.map",
-    "main.f4caefd5.js.map": "/react-portfolio-ch20-sfn/static/js/main.f4caefd5.js.map"
+    "main.7c03019e.js.map": "/react-portfolio-ch20-sfn/static/js/main.7c03019e.js.map"
   },
   "entrypoints": [
     "static/css/main.7db29f0b.css",
-    "static/js/main.f4caefd5.js"
+    "static/js/main.7c03019e.js"
   ]
 }
